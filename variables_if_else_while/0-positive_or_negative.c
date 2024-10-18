@@ -6,9 +6,9 @@
  * Return: 0
  */
 int main(void)
+int n = rand() % 101 - 100;
 {
 srand(time(0));
-int n = rand() % 101 - 100;
 
 	printf("%d ", n);
 	if (n > 0)
