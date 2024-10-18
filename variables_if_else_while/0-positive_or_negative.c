@@ -14,7 +14,7 @@ int n;
 srand(time(0));
 n = rand() % 101 - 100;
 
-	printf("%d ", n);
+	printf("%d", n);
 	if (n > 0)
 	{
 	printf("is positive\n");
