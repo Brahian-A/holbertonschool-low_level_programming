@@ -1,18 +1,17 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 
+#include <time.h>
+#include <stdio.h>
 /**
  * main - positivo o negativo
  * Return: 0
  */
-
 int main(void)
 {
-int n;
+	int n;
 
-srand(time(0));
-n = rand() % 101 - 100;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	printf("%d", n);
 	if (n > 0)
