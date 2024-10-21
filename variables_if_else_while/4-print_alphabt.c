@@ -7,12 +7,12 @@
 
 int main(void)
 {
-        char az;
+	char az;
 
-        for (az = 'a'; az <= 'z'; az++)
-	if(az != 'e' && az != 'q')
+	for (az = 'a'; az <= 'z'; az++)
+	if (az != 'e' && az != 'q')
 {
 	putchar(az);
 }
-	return 0;
+	return (0);
 }
