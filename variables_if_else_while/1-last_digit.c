@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /*
- * mian - 1  The last digit 
+ * main - 1 The last digit 
  * Return 0 
  */
 int main(void)
@@ -18,11 +19,11 @@ int main(void)
 	if (numero > 5)
 		printf("%d and is greater than 5\n" numero);
 	
-	else if (numero numero == 0 )
-		printf("%d and is 0/n" numero );
+	else if (numero numero == 0)
+		printf("%d and is 0\n" numero );
 
 	else 
-		printf ("%d and is less than 6 and not 0/n" numero);
+		printf ("%d and is less than 6 and not 0\n" numero);
 	
 	                   
 
