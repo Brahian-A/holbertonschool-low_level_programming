@@ -11,6 +11,7 @@ int n;
 	for (n = 0; n < 11; n++)
 {
 		printf("%d\n", n);
+		printf(\n)
 }
 
 return (0);
