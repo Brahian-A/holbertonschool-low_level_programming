@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- *main - 2-print_alphabet.c
+ *main - 3-print_alphabet.c
  *Return: 0
  */
 
