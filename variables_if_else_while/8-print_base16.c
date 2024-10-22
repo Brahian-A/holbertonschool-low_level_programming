@@ -6,7 +6,7 @@
  */
 	int main(void)
 {
-char exa[] = "0123456789abcdf";
+char exa[] = "0123456789abcdef";
 int a;
 
 	for (a = 0; a < 16; a++)
