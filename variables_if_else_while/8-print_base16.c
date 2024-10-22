@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- *main- 6-print_numberz.c
+ *main- 8 exadecimaels 
  *Return: 0
  */
 	int main(void)
