@@ -4,17 +4,17 @@
  *main- 6-print_numberz.c
  *Return: 0
  */
-        int main(void)
+	int main(void)
 {
-char exa[] ="123456789abcdf";
+char exa[] = "123456789abcdf";
 int a;
 
-        for (a = 0; a <16; a++)
-{       putchar(exa[a]);
+	for (a = 0; a < 16; a++)
+{	putchar(exa[a]);
 
 }
 
-        putchar('\n');
+	putchar('\n');
 return (0);
 
 }
