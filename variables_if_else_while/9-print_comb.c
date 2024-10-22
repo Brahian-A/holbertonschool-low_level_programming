@@ -4,7 +4,7 @@
  *main- 9 cosas raras
  *Return: 0
  */
-        int main(void)
+	int main(void)
 {
 int a;
 
@@ -15,7 +15,7 @@ int a;
 	putchar(' ');
 }
 }
-        putchar('\n');
+	putchar('\n');
 return (0);
 
 }
