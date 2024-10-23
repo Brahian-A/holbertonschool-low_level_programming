@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_alphabet- Que dificil me la pusiste 
- *Return: void 
+ *print_alphabet- Que dificil me la pusiste
+ *Return: void
  */
 
 
@@ -16,7 +16,7 @@ void print_alphabet(void)
 
 
 
-	_putchar('\n'); 
+	_putchar('\n');
 
 
 }
