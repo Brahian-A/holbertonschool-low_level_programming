@@ -1,10 +1,18 @@
 #include "main.h"
 
 /**
- *int _islower(int c);
+ *_islower- Nunca entiendo bien el ejercicio 
  *Return: void
  */
 
 
 int _islower(int c)
+{
 
+	if (c <= 'a' && c >= 'z')
+		return (1);
+	else 
+		return (0);
+
+
+}
