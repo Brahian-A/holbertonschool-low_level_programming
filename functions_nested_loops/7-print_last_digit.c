@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_last_digit- imprime el ultimo numero 
- *@r: el numero a verificar 
+ *print_last_digit- imprime el ultimo numero
+ *@r: el numero a verificar
  *Return: el ultimo digito
  */
 
