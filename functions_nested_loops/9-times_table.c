@@ -31,12 +31,15 @@ int num, reps, asci;
 			}
 			else
 			{
+				if (num != 0)
+				{
+				_putchar(' ');
+				}
 				_putchar('0' + (num * reps));
 			if(num == 9)
 			 { break;
 			 }
 				_putchar(',');
-				_putchar(' ');
 				_putchar(' ');
 			}
 		
