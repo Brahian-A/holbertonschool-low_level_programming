@@ -14,6 +14,7 @@ int num, reps, asci;
 
 	for (reps = 0; reps < 10; reps++)
 	{
+
 		for (num = 0; num < 10; num++)
 		{
 			asci = num * reps;
@@ -22,16 +23,26 @@ int num, reps, asci;
 			{
 				_putchar('0' + (asci / 10));
 				_putchar('0' + (asci % 10));
+				if(num == 9)
+				{ break;
+				}
 				_putchar(',');
 				_putchar(' ');
 			}
 			else
 			{
 				_putchar('0' + (num * reps));
+			if(num == 9)
+			 { break;
+			 }
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
 			}
+		
 		}
-				_putchar('\n');
+		_putchar('\n');
 	}
+
+
 }
