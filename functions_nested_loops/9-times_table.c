@@ -23,7 +23,7 @@ int num, reps, asci;
 			{
 				_putchar('0' + (asci / 10));
 				_putchar('0' + (asci % 10));
-				if(num == 9)
+				if (num == 9)
 				{ break;
 				}
 				_putchar(',');
@@ -36,13 +36,13 @@ int num, reps, asci;
 				_putchar(' ');
 				}
 				_putchar('0' + (num * reps));
-			if(num == 9)
-			 { break;
-			 }
+			if (num == 9)
+			{ break;
+			}
 				_putchar(',');
 				_putchar(' ');
 			}
-		
+
 		}
 		_putchar('\n');
 	}
