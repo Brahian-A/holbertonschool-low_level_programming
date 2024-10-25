@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *add- despues de pensar 3 horas con el 9 este no puede ser tan facil 
+ *add- despues de pensar 3 horas con el 9 este no puede ser tan facil
  *
  *Return: n + a
  */
 
 
 int add(int n, int a)
-	
-	return(n + a)
+{
+	return (n + a);
+}
