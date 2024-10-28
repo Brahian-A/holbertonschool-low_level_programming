@@ -24,7 +24,9 @@ for (c = 1; c <= 100; c++)
 
 	else if (c % 5 == 0)
 	{
-		printf("Buzz ");
+		printf("Buzz");
+		if (c <= 99)
+		putchar (' ');
 	}
 
 	else
