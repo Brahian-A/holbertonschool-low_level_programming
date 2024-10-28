@@ -29,7 +29,7 @@ for (c = 1; c <= 100; c++)
 
 	else
 	{
-		printf("%d ", c);
+		printf("%d", c);
 		if (c == 100)
 		{
 		break;
