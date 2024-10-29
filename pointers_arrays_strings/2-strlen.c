@@ -1,18 +1,19 @@
 #include "main.h"
-#include <string.h>
 /**
- *_strlen-
- *@*s:
- *Return:
+ *_strlen- la funcion
+ *@s:-
+ *Return: a
  *
  */
 
 
 int _strlen(char *s)
 {
-size_t length = strlen(s)
-_putchar (s /10 + '0');
-_putchar (s %10 + '0');
+int a;
 
-
+	for (a = 0; s[a] != '\0'; a++)
+	{
+	}
+		_putchar (a + '0');
+return (a);
 }
