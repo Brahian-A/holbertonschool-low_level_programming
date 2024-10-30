@@ -1,5 +1,4 @@
 # include "main.h"
-# include <stdio.h>
 /**
  *_puts- la funcion
  *@str: el puntero
@@ -13,8 +12,8 @@ void _puts(char *str)
 
 	while (str[a] != '\0')
 	{
-		putchar(str[a]);
+		_putchar(str[a]);
 		a++;
 	}
-	printf("\n");
+	_putchar('\n');
 }
