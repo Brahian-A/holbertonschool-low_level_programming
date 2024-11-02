@@ -4,7 +4,7 @@
  *_strcpy- funcio para copiar el string
  *@src:el otro puntero
  *@dest:puntero que guarda el destino
- *
+ *Return: pepe
  */
 
 char *_strcpy(char *dest, char *src)
