@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
+ *puts_half- la funcion
+ *@str: el string
  *
- *
- *
- *
+ *Return: la mitad de la cadena
  *
  */
 
@@ -14,7 +14,7 @@ int inicio = 0;
 int largo = 0;
 int i;
 
-	while(str[largo] != '\0')
+	while (str[largo] != '\0')
 	{
 		largo++;
 	}
@@ -27,7 +27,7 @@ int i;
 			inicio = (largo - 1) / 2 + 1;
 		}
 			for (i = inicio; i < largo; i++)
-			{			
+			{
 				_putchar(str[i]);
 			}
 	_putchar('\n');
