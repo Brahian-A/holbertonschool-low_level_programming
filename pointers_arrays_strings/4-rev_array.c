@@ -17,7 +17,7 @@ int *final = a + n - 1;
 	while (inicio < final)
 	{
 		n = *inicio;
-		*a = *final;
+		*inicio = *final;
 		*final = n;
 		inicio++;
 		final--;
