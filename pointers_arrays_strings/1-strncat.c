@@ -5,23 +5,23 @@
  *@dest:el puntero donde termina
  *@src: "    "       '    empieza
  *Return: el puntero + la string
- *
+ *@n:una variable
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 char *a = dest;
 
-        while (*dest != '\0')
-        {       dest++;
-        }
+	while (*dest != '\0')
+	{	dest++;
+	}
 
 	while (*src != '\0' && n > 0)
 	{
 		*dest = *src;
 		dest++;
 		src++;
-                	n--;
+		n--;
 		}
 	*dest = '\0';
 	return (a);
