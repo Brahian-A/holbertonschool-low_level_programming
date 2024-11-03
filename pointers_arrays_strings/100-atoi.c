@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_atoi-
- *@s:
- *Return: 0
+ *_atoi-la funcion del maldito atoi
+ *@s:el string
+ *Return: solo los digitos con su multiplicacion de los signos
  *
  */
 
@@ -15,10 +15,10 @@ int _atoi(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] >= 0 && s[i] <= 9)
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			resultado = resultado * 10 + s[i] - 0;
-			if (s[i + 1] < 0 || s[i + 1] > 9)
+			resultado = resultado * 10 + s[i] - '0';
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
 		}
 
