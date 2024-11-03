@@ -2,7 +2,7 @@
 
 /**
  *string_toupper- funcion que cambia minusculas a mayusculas
- *@string; el string a cambiar
+ *@string: el string a cambiar
  *Return: 'a' - 'A' = a,b,c = A,B,C
  *
  *
