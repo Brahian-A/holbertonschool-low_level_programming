@@ -25,17 +25,17 @@ char *original = string;
 				capitaliza = 1;
 			}
 				else if (*string >= 'A' && *string <= 'Z')
-					{
-						capitaliza = 0;
+				{
+					capitaliza = 0;
 					}
 
-						else
-						{
-							if (*string >= '0' && *string <= '9')
-							{	
-								capitaliza = 0;
-							}
-						}		
+				else
+				{
+					if (*string >= '0' && *string <= '9')
+					{
+					capitaliza = 0;
+				}
+					}
 		string++;
 	}
 	return (original);
