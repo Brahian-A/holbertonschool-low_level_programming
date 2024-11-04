@@ -24,23 +24,19 @@ char *original = string;
 			{
 				capitaliza = 1;
 			}
-				else if
-				{
-					if (*string >= 'A' && *string <= 'Z')
+				else if (*string >= 'A' && *string <= 'Z')
 					{
 						capitaliza = 0;
 					}
-				}
 
 						else
 						{
-							if (*string >= '0' && *string '9' 
+							if (*string >= '0' && *string <= '9')
+							{	
 								capitaliza = 0;
+							}
 						}		
 		string++;
 	}
 	return (original);
-
-
-
 }
