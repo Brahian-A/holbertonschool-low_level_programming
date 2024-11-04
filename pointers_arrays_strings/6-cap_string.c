@@ -27,7 +27,7 @@ char *original = string;
 				else
 				{
 					if (*string >= 'A' && *string <= 'Z')
-						capitaliza = 0;
+				}		capitaliza = 0;
 			}
 		string++;
 	}
