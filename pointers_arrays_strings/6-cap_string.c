@@ -23,12 +23,14 @@ char *original = string;
 			*string == '(' || *string == ')' || *string == '{' || *string == '}')
 			{
 				capitaliza = 1;
-
+			}
 				else
 				{
 					if (*string >= 'A' && *string <= 'Z')
-				}		capitaliza = 0;
-			}
+					{
+						capitaliza = 0;
+					}
+				}
 		string++;
 	}
 	return (original);
