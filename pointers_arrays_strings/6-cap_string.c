@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include "main.h"
 /**
  **cap_string-funcion que capitaliza despues de los espacios
@@ -13,9 +12,9 @@ char *original = string;
 
 	while (*string)
 	{
-		if (capitaliza && isalpha(*string))
+		if (capitaliza && *string >= 'a' && *string <= 'z')
 		{
-			*string = toupper(*string);
+			*string = *string - ('a' - 'A');
 			capitaliza = 0;
 		}
 			else if (*string == ' ' || *string == '\t' || *string == '\n' ||
