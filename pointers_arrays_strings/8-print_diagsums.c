@@ -27,7 +27,7 @@ void print_diagsums(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		sum2 += *puntero2;
-		puntero2 += size + 1;
+		puntero2 += size - 1;
 	}
 
 	printf("%d, %d\n", sum1, sum2);
