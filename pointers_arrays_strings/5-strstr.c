@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
+ *_strstr- la funcion
  *
- *
- *
- *
- *
+ *@haystack:el punteo
+ *@needle: el otro puntero
+ *Return:0 en realidad no retorna 0 pero ya no queiro hacer comentraios
  */
 
 char *_strstr(char *haystack, char *needle)
@@ -14,7 +14,7 @@ char *_strstr(char *haystack, char *needle)
 
 	if (*needle == '\0')
 	{
-	return haystack;
+	return (haystack);
 	}
 
 	while (*haystack)
@@ -22,7 +22,8 @@ char *_strstr(char *haystack, char *needle)
 	h = haystack;
 	n = needle;
 
-	while (*h && *n && (*h == *n)) {
+	while (*h && *n && (*h == *n))
+	{
 		h++;
 		n++;
 	}
@@ -30,11 +31,11 @@ char *_strstr(char *haystack, char *needle)
 
 	if (*n == '\0')
 	{
-		return haystack;
+		return (haystack);
 	}
 
 	haystack++;
 	}
 
-	return NULL;
+	return (NULL);
 }
