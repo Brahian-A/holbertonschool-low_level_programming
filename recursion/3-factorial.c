@@ -2,7 +2,8 @@
 
 /**
  *factorial- funcion que me da la factorial
- *@n:vaiable 
+ *@n:vaiable
+ *Return: n* n-1
  */
 
 int factorial(int n)
@@ -17,6 +18,6 @@ int factorial(int n)
 	}
 	else
 	{
-	return(n * factorial(n - 1));
+	return (n * factorial(n - 1));
 }
 }
