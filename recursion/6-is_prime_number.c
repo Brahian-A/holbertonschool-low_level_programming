@@ -16,7 +16,7 @@ int aux(int n, int div)
 	{
 		return (1);
 	}
-	if (n % div == 0)	
+	if (n % div == 0)
 	{
 		return (0);
 	}
