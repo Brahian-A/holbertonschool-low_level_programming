@@ -1,22 +1,40 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
- *
+ * aux - funcion auxiliar
+ * @i:variable que itera
+ * @num: numero
+ * Return: pepe
  */
 
-int _sqrt_recursion(int n, int raiz)
+
+int aux(int num, int i)
 {
-	if (raiz * raiz == n)
+	if (num < 0 || num == 0)
 	{
-		return (raiz);
+		return (-1);
 	}
-	else if (raiz + raiz > n)
+	if (i * i == num)
 	{
-		return(-1);
+		return (i);
 	}
-	return _sqrt_recursion(n, raiz + 1);
+	if (i * i > num)
+	{
+		return (-1);
+	}
+	return (aux(num, i + 1));
+
+
+}
+
+
+/**
+ * _sqrt_recursion - funcion
+ * @n: numero
+ * Return: pepe
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (aux(n, 1));
 }
