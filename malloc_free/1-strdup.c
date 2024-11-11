@@ -28,19 +28,21 @@ size_t _longitud(const char *str)
 char *_strdup(char *str)
 {
 char *dupstr;
-char *inicio = dupstr;
+char *inicio;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	dupstr = malloc(_longitud(str) +1);
+	dupstr = malloc(_longitud(str) + 1);
 
 	if (dupstr == NULL)
 	{
 		return (NULL);
 	}
+	inicio = dupstr;
+
 		while (*str)
 		{
 			*dupstr = *str;
