@@ -11,6 +11,7 @@
 char *_strdup(char *str)
 {
 char *dupstr = malloc(strlen(str) + 1);
+char *inicio = dupstr;
 
 	if (str == NULL)
 	{
@@ -21,6 +22,12 @@ char *dupstr = malloc(strlen(str) + 1);
 	{
 		return (NULL);
 	}
-		strcpy(dupstr, str);
-		return (dupstr);
+		while (*str)
+		{
+			*dupstr = *str;
+			dupstr++;
+			str++;
+		}
+		*dupstr = '\0';
+		return (inicio);
 }
