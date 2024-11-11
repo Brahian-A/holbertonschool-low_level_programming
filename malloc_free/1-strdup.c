@@ -27,7 +27,7 @@ size_t _longitud(const char *str)
 
 char *_strdup(char *str)
 {
-char *dupstr = malloc((long) +1);
+char *dupstr = malloc((longi) +1);
 char *inicio = dupstr;
 
 	if (str == NULL)
