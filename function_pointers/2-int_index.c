@@ -4,6 +4,7 @@
  *@array:array con los valores a buscar
  *@cmp:puntero a la funcion
  *@size: tamanio del array
+ *Return: un numero
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -14,7 +15,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-	
 	else
 	{
 		for (i = 0; i < size; i++)
