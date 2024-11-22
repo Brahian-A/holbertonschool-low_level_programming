@@ -24,6 +24,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			{
 				printf("(nil)");
 			}
+			else
+                        {
+                                printf("%s", num);
+                        }
+			
 			if (separator != NULL)
 			{
 				printf("%s", num);
@@ -34,10 +39,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 				printf("%s", separator);
 				}
 			}
-			else
-			{
-				printf("%s", num);
-			}
+
 		}
 	va_end(argu);
 	printf("\n");
