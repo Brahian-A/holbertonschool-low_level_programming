@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *
- *
- *
- *
- *
+ *print_numbers- funcion
+ *@separator: separador entre n
+ *@n: digitos
+ *Return: n + separador
  */
 
 
@@ -23,16 +22,16 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		num = va_arg(argu, int);
 
-		if (separator != NULL)	
+		if (separator != NULL)
 		{
 		printf("%d", num);
-		if (f == n -1)
+		if (i == f - 1)
 		{
 			break;
 		}
 		printf("%s", separator);
 		}
-		else 
+		else
 		{
 		printf("%d", num);
 		}
