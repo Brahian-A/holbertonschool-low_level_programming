@@ -21,13 +21,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			num = va_arg(argu, char *);
 			if (num == NULL)
-			{
+			
 				printf("(nil)");
-			}
+			
 			else
-                        {
+                        
                                 printf("%s", num);
-                        }
+                        
 			
 			if (separator != NULL)
 			{
