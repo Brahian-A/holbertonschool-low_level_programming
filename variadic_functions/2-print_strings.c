@@ -35,7 +35,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 				}
 				printf("%s", separator);
 			}
-
+			else
+			{
+				printf("%s", num);
+			}
 		}
 	va_end(argu);
 	printf("\n");
