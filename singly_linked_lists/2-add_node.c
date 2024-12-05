@@ -3,7 +3,7 @@
  * add_node - Agrega un nuevo nodo al inicio de una lista enlazada
  * @head: Puntero al puntero del nodo principal de la lista
  * @str: Cadena de texto que se duplicará y almacenará en el nuevo nodo
- * Return: Dirección del nuevo elementoo NULL si la asignacion de memoria falla
+ * Return:Dirección del nuevo elementoo NULL si la asignacion de memoria fall
  */
 
 
