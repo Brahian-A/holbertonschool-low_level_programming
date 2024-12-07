@@ -1,10 +1,8 @@
 #include "lists.h"
 
 /**
- *
- *
- *
- *
+ *free_dlistint- funcion que libera memoria
+ *@head: puntero al primer nodo
  *
  */
 
