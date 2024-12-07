@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- *add_dnodeint_end-Añade un nuevo nodo al final de una lista doblemente enlazada
+ *add_dnodeint_end- agrega nuevo nodo al final de una lista doblemente enlazada
  *@head: Doble puntero que apunta al primer nodo de la lista.
- *n:Valor entero que contendrá el nuevo nodo
+ *@n:Valor entero que contendrá el nuevo nodo
  *Return: la direccion del nuevo nodo
  */
 
